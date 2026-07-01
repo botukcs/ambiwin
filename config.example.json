@@ -1,0 +1,19 @@
+{
+  "monitor_index": 1,
+  "fps": 10,
+  "brightness": 70,
+  "smoothing": 0.22,
+  "min_color_change": 4,
+  "downsample": 18,
+  "ui": {
+    "minimize_to_tray": true,
+    "start_minimized": false
+  },
+  "yandex": {
+    "oauth_token": "YOUR_OAUTH_TOKEN",
+    "device_id": "YOUR_DEVICE_ID",
+    "device_name": "Умная эмби-лампа",
+    "room": "Гостиная",
+    "color_mode": "hsv"
+  }
+}

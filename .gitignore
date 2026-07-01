@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.spec.bak
+
+# PyInstaller
+*.manifest
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Local secrets (config lives in user profile, not repo)
+config.json
+
+# Build artifacts
+*.exe
+!dist/.gitkeep
