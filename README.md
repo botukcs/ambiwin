@@ -15,7 +15,7 @@
 
 ## Скачать
 
-Готовый `YandexAmbiSync.exe` — в [Releases](https://github.com/YOUR_USERNAME/yandex-ambisync/releases) (после публикации репозитория).
+Готовый `YandexAmbiSync.exe` в [Releases](https://github.com/YOUR_USERNAME/yandex-ambisync/releases) (после публикации репозитория).
 
 Или соберите сами:
 
@@ -54,9 +54,9 @@ python run.py
 
 ## Системный трей
 
-- Закрытие окна (✕) **сворачивает в трей** — синхронизация продолжается
+- Закрытие окна (✕) **сворачивает в трей** - синхронизация продолжается
 - Правый клик по иконке: Открыть / Старт / Стоп / Выход
-- Двойной клик — открыть окно
+- Двойной клик - открыть окно
 
 Настройки «Поведение» в приложении:
 
@@ -75,37 +75,3 @@ python run.py
 | Downsample | 18 |
 
 Кнопка **«Плавный режим»** в настройках выставляет их автоматически.
-
-## Структура проекта
-
-```
-yandex-ambisync/
-  ambisync/
-    app.py           # точка входа, трей + окно
-    controller.py    # логика синхронизации
-    sync_engine.py   # цикл захвата экрана
-    yandex_api.py    # API Яндекс Умного дома
-    tray.py          # иконка в трее
-    ui/              # интерфейс
-  scripts/build.ps1  # сборка exe
-  assets/            # иконка
-```
-
-## Релиз на GitHub
-
-```bash
-git tag v1.0.0
-git push origin v1.0.0
-```
-
-Workflow `.github/workflows/release.yml` соберёт exe и прикрепит к Release.
-
-## Ограничения
-
-- Только облачный API Яндекса (задержка 200–500 мс)
-- Один средний цвет на весь экран
-- Windows 10/11
-
-## Лицензия
-
-MIT — см. [LICENSE](LICENSE).
