@@ -26,7 +26,7 @@
 ## Быстрый старт (из исходников)
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/yandex-ambisync.git
+git clone https://github.com/botukcs/ambiwin/yandex-ambisync.git
 cd yandex-ambisync
 python -m venv .venv
 .venv\Scripts\activate
